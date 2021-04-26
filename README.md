@@ -3,7 +3,7 @@ Re-creates an issue when trying to use `spl_associated_token_account::create_ass
 To run `cargo test-bpf --manifest-path programs/program_associated_account_poc/Cargo.toml`
 
 ### What was expected
-Hoping the program could create an associated token account for an account that it does not own.
+The program creates an associated token account for an account that it does not own.
 
 ### What actually happened
 The program fails with error `Error processing Instruction 0: instruction modified data of an account it does not own`
