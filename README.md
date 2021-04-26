@@ -1,5 +1,7 @@
 Re-creates an issue when trying to use `spl_associated_token_account::create_associated_token_account` in a cross program invocation.
 
+NOTE: This repo doesn't actually use Anchor.
+
 To run `cargo test-bpf --manifest-path programs/program_associated_account_poc/Cargo.toml`
 
 ### What was expected
